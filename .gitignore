@@ -30,3 +30,5 @@ example/.dart_tool/
 .pub-cache/
 .pub/
 build/
+.build/
+.swiftpm/
