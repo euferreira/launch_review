@@ -1,6 +1,6 @@
-# launch_review_example
+# launch_app_store_example
 
-Demonstrates how to use the launch_review plugin.
+Demonstrates how to use the launch_app_store plugin.
 
 ## Getting Started
 

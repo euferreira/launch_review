@@ -1,4 +1,4 @@
-group "com.iyaffle.launchreview"
+group "com.jbferreira.launchappstore"
 
 rootProject.allprojects {
     repositories {
@@ -10,7 +10,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace = "com.iyaffle.launchreview"
+    namespace = "com.jbferreira.launchappstore"
     compileSdk = 34
 
     defaultConfig {

@@ -17,8 +17,8 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: ElevatedButton(
             child: Text("Rate App"),
-            onPressed: () => LaunchReview.launch(
-              androidAppId: "com.iyaffle.kural",
+            onPressed: () => LaunchAppStore.launch(
+              androidAppId: "com.jbferreira.kural",
               iOSAppId: "585027354",
             ),
           ),

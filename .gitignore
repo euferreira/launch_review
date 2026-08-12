@@ -32,3 +32,11 @@ example/.dart_tool/
 build/
 .build/
 .swiftpm/
+
+# iOS/CocoaPods generated
+**/ios/.symlinks/
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/Podfile.lock

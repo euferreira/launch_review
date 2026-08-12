@@ -1,6 +1,6 @@
-# launch_review
+# launch_app_store
 
-[![pub package](https://img.shields.io/pub/v/launch_review.svg)](https://pub.dartlang.org/packages/launch_review)
+[![pub package](https://img.shields.io/pub/v/launch_app_store.svg)](https://pub.dev/packages/launch_app_store)
 
 A Flutter plugin to assist in leaving user reviews/ratings in Google Play Store and Apple App Store.
 
@@ -19,25 +19,25 @@ For iOS 9 and above, your `Info.plist` file  __MUST__ have the following:
 ```
 
 ## Usage
-To use this plugin, add `launch_review` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `launch_app_store` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## Example
 
 Import the library via
 ``` dart
-import 'package:launch_review/launch_review.dart'; 
+import 'package:launch_app_store/launch_app_store.dart'; 
 ```
 
-Then invoke the static `launch` method of `LaunchReview` anywhere in your Dart code. If no arguments are provided, it will consider the current package.
+Then invoke the static `launch` method of `LaunchAppStore` anywhere in your Dart code. If no arguments are provided, it will consider the current package.
 
 ``` dart
-LaunchReview.launch();
+LaunchAppStore.launch();
 ```
 
 To open the App Store page for any other applications, you can pass the app Id.
 
 ``` dart
-LaunchReview.launch(androidAppId: "com.iyaffle.rangoli",
+LaunchAppStore.launch(androidAppId: "com.jbferreira.rangoli",
                     iOSAppId: "585027354");
 ```
 
@@ -47,7 +47,7 @@ This plugin is inspired by the Cordova plugin [cordova-launch-review](https://gi
 Set writeReview to false to only show the app store page. Used only in iOS.
 
 ``` dart
-LaunchReview.launch(writeReview: false,iOSAppId: "585027354");
+LaunchAppStore.launch(writeReview: false,iOSAppId: "585027354");
 ```
 
 ## License

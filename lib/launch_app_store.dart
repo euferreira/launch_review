@@ -1,7 +1,7 @@
 import 'package:flutter/services.dart';
 
-class LaunchReview {
-  static const MethodChannel _channel = const MethodChannel('launch_review');
+class LaunchAppStore {
+  static const MethodChannel _channel = const MethodChannel('launch_app_store');
 
   /// Note: It will not work with the iOS Simulator.
   ///

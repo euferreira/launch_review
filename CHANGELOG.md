@@ -1,3 +1,9 @@
+## 2.0.0
+* chore: renamed `LaunchReview` class to `LaunchAppStore`, MethodChannel name to `launch_app_store`, and Android package to `com.jbferreira.launchappstore` to match the plugin's `launch_app_store` name
+
+## 1.1.5
+* chore: add Swift Package Manager support for iOS and update deployment target to 13.0
+
 ## 1.1.4
 * Fix flutter 3.29. Contributed by [VDuck2](https://github.com/VDuck02)
 

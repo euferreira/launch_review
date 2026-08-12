@@ -1,6 +1,6 @@
 name: launch_app_store
 description: A Flutter plugin to reviews in Google Play Store and Apple App Store.
-version: 1.1.4
+version: 2.0.0
 homepage: https://github.com/euferreira/launch_review
 
 environment:  
@@ -23,8 +23,8 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.iyaffle.launchreview
-        pluginClass: LaunchReviewPlugin
+        package: com.jbferreira.launchappstore
+        pluginClass: LaunchAppStorePlugin
       ios:
-        pluginClass: LaunchReviewPlugin
+        pluginClass: LaunchAppStorePlugin
 
